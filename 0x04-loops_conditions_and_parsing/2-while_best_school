@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#while loop for printing "Best School" Text 
+i=1;
+j="Best School"
+while [ $i -le 10 ]
+do
+	echo "$j"
+	((i++))
+done
